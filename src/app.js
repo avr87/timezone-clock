@@ -60,7 +60,9 @@ function updateLocation(event) {
               <div class="date">${cityDate.format("MMMM Do YYYY")}</div>
             </div>
             <div class="time">${cityDate.format("HH:mm:ss")}</div>
-          </div>`;
+          </div>
+          <a href="/">All cities</a>
+          `;
 }
 
 let citySelectElement = document.querySelector("#city");
