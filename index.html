@@ -18,45 +18,46 @@
       <div class="card">
         <h1>World clock</h1>
 
-        <select name="cities" id="city">
+        <select name="city" id="city">
           <option value="">Select a city</option>
-          <option value="">New York</option>
-          <option value="">Vancouver</option>
-          <option value="">Nicosia</option>
-          <option value="">Rome</option>
+          <option value="America/New_York">New York</option>
+          <option value="America/Vancouver">Vancouver</option>
+          <option value="Asia/Nicosia">Nicosia</option>
+          <option value="Europe/Rome">Rome</option>
         </select>
 
-        <div class="cities" id="london">
-          <div>
-            <h2>London 🇬🇧</h2>
-            <div class="date"></div>
+        <div id="displayCity">
+          <div class="cities" id="london">
+            <div>
+              <h2>London 🇬🇧</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
           </div>
-          <div class="time"></div>
-        </div>
-        <div class="cities" id="amsterdam">
-          <div>
-            <h2>Amsterdam 🇱🇺</h2>
-            <div class="date"></div>
+          <div class="cities" id="amsterdam">
+            <div>
+              <h2>Amsterdam 🇱🇺</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time" id="time"></div>
           </div>
-          <div class="time" id="time"></div>
-        </div>
-        <div class="cities" id="bangkok">
-          <div>
-            <h2>Bangkok 🇹🇭</h2>
-            <div class="date">January 21, 2023</div>
+          <div class="cities" id="bangkok">
+            <div>
+              <h2>Bangkok 🇹🇭</h2>
+              <div class="date">January 21, 2023</div>
+            </div>
+            <div class="time">15:19</div>
           </div>
-          <div class="time">15:19</div>
-        </div>
-        <div class="cities" id="dar-es-salaam">
-          <div>
-            <h2>Dar Es Salaam 🇹🇿</h2>
-            <div class="date">January 21, 2023</div>
+          <div class="cities" id="dar-es-salaam">
+            <div>
+              <h2>Dar Es Salaam 🇹🇿</h2>
+              <div class="date">January 21, 2023</div>
+            </div>
+            <div class="time">15:19</div>
           </div>
-          <div class="time">15:19</div>
         </div>
       </div>
     </div>
-
     <footer>
       <a
         href="https://github.com/avr87/timezone-clock"
