@@ -20,16 +20,6 @@ function updateTime() {
     amsterdamDateElement.innerHTML = amsterdamTime.format("MMMM Do YYYY");
     amsterdamTimeElement.innerHTML = amsterdamTime.format("HH:mm:ss");
   }
-  // Bangkok
-  let bangkokElement = document.querySelector("#bangkok");
-  if (bangkokElement) {
-    let bangkokDateElement = bangkokElement.querySelector(".date");
-    let bangkokTimeElement = bangkokElement.querySelector(".time");
-    let bangkokTime = moment().tz("Asia/Bangkok");
-
-    bangkokDateElement.innerHTML = bangkokTime.format("MMMM Do YYYY");
-    bangkokTimeElement.innerHTML = bangkokTime.format("HH:mm:ss");
-  }
   //Dar Es Salaam
   let darEsSalaamElement = document.querySelector("#dar-es-salaam");
   if (darEsSalaamElement) {
@@ -39,6 +29,16 @@ function updateTime() {
 
     darEsSalaamDateElement.innerHTML = darEsSalaamTime.format("MMMM Do YYYY");
     darEsSalaamTimeElement.innerHTML = darEsSalaamTime.format("HH:mm:ss");
+  }
+  // Bangkok
+  let bangkokElement = document.querySelector("#bangkok");
+  if (bangkokElement) {
+    let bangkokDateElement = bangkokElement.querySelector(".date");
+    let bangkokTimeElement = bangkokElement.querySelector(".time");
+    let bangkokTime = moment().tz("Asia/Bangkok");
+
+    bangkokDateElement.innerHTML = bangkokTime.format("MMMM Do YYYY");
+    bangkokTimeElement.innerHTML = bangkokTime.format("HH:mm:ss");
   }
 }
 
