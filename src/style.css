@@ -55,3 +55,6 @@ footer {
   font-size: 8px;
   color: white;
 }
+#allCities {
+  display: none;
+}
